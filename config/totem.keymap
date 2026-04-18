@@ -31,7 +31,7 @@
             flavor = "tap-preferred";
             quick-tap-ms = <180>;
             tapping-term-ms = <200>;
-            require-prior-idle-ms = <80>;
+            require-prior-idle-ms = <90>;
             bindings = <&kp>, <&kp>;
         };
     };
@@ -75,7 +75,7 @@
             bindings = <
            &kp EXCLAMATION   &kp AT_SIGN        &kp POUND       &kp DOLLAR       &kp PERCENT    &kp CARET      &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
            &kp N1            &kp NUMBER_2       &kp NUMBER_3    &kp NUMBER_4     &kp N5         &kp NUMBER_6   &kp N7         &kp N8        &kp N9                &kp N0
-&kp TILDE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp GRAVE      &kp BACKSLASH  &kp UNDER      &kp PLUS      &kp PIPE              &kp FSLH               &kp CARET
+&kp TILDE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp GRAVE      &kp BACKSLASH  &kp UNDER      &kp PLUS      &kp PIPE              &kp FSLH               &kp LS(SEMI)
                                                 &trans          &trans           &trans         &kp PLUS       &kp EQUAL      &kp MINUS
             >;
         };
@@ -84,7 +84,7 @@
             bindings = <
                &kp LG(SPACE)       &kp LC(INS)          &kp LS(INSERT)     &kp INS      &kp LG(UP_ARROW)      &kp LC(C)       &kp HOME        &kp END          &kp LS(HOME)            &kp LS(END)
                &trans              &trans               &trans             &trans       &kp C_PLAY_PAUSE      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT_ARROW         &kp CAPS
-&kp LC(LS(V))  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)  &kp LC(BACKSPACE)  &kp LS(DEL)  &kp LG(DOWN_ARROW)    &kp LC(V)       &kp PAGE_DOWN   &kp PAGE_UP      &kp LC(LS(LEFT_ARROW))  &kp LC(LS(RIGHT))  &kp LC(LS(V))
+&kp LC(LS(V))  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)  &kp LC(BACKSPACE)  &kp LS(DEL)  &kp LG(DOWN_ARROW)    &kp LA(GRAVE)       &kp PAGE_DOWN   &kp PAGE_UP      &kp LC(LS(LEFT_ARROW))  &kp LC(LS(RIGHT))  &kp LC(LS(V))
                                                         &trans             &trans       &trans                &caps_word      &kp DEL         &kp PRINTSCREEN
             >;
         };
