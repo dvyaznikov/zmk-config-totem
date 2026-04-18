@@ -62,6 +62,7 @@
         r_under {
             bindings = <&kp UNDER>;
             key-positions = <27 28>;
+            timeout-ms = <50>;
         };
     };
 
